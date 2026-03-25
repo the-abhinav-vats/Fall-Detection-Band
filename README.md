@@ -153,3 +153,11 @@ void handleRoot() {
   page += "</body></html>";
   server.send(200, "text/html", page);
 }
+
+
+
+# How To Use/ Testcase:
+1. Connect any device to the wife of this device
+2. WIFI_SSID "FallDetect" and WIFI_PASSWORD "45454545"
+3. Now open browser and visit https://192.168.4.1
+4. Now shake the device and you will see the detected fall on webpage.
